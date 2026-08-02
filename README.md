@@ -1,7 +1,7 @@
 # Validation of EOlife X — data and interactive review tool
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21759367.svg)](https://doi.org/10.5281/zenodo.21759367)
-[![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759368/?urlpath=voila%2Frender%2Freview_data.ipynb)
+[![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759367/?urlpath=%2Fdoc%2Ftree%2Freview_data.ipynb)
 
 Data and an interactive review interface accompanying:
 
@@ -134,10 +134,14 @@ to each breath (`VTinsp`, `VTexp`), and the variants used for the sensitivity an
 reference signals and annotations in synchronised subplots, with a clickable overview of
 the full recording beneath for navigation.
 
-**In your browser, nothing to install** — the badge above launches the archived v1.0.0
-snapshot on [Binder](https://mybinder.org/), built from the Zenodo record rather than
-from this branch, so it shows the same data whatever happens here later. First start
-takes a few minutes while the environment is built.
+**In your browser, nothing to install** — the badge above opens the notebook on
+[Binder](https://mybinder.org/), built from the archived Zenodo record rather than from
+this branch, so it shows released data whatever happens here later. First start takes a
+few minutes while the environment is built; then run the cells to get the interface.
+
+For the Voilà view without the code, append `?urlpath=voila%2Frender%2Freview_data.ipynb`
+to the Binder URL instead — it renders the same interface, but executes the whole
+notebook first and takes about a minute longer to appear.
 
 Locally:
 
