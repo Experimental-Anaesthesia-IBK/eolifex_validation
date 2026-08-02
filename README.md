@@ -3,6 +3,15 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21759367.svg)](https://doi.org/10.5281/zenodo.21759367)
 [![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759367/?urlpath=%2Fdoc%2Ftree%2Freview_data.ipynb)
 
+![Graphical abstract. EOlife X compared against reference measurements in a porcine
+cardiac arrest model, n = 11. Regular ventilation, 581 breaths: bias and limits of
+agreement within the clinically acceptable difference for inspiratory tidal volume,
+expiratory tidal volume and ventilation rate. Asynchronous intra-arrest ventilation,
+240 breaths: inspiratory tidal volume bias −26 mL but limits of agreement −355 to
++304 mL; expiratory tidal volume bias −281 mL, limits −599 to +37 mL; ventilation rate
+bias +23.8 per minute, limits −50.2 to +97.8. Reverse airflow episodes are a possible
+mechanism.](graphical-abstract.svg)
+
 Data and an interactive review interface accompanying:
 
 > Orlob S, Purkarthofer D, Kern WJ, Hackl B, Dunz J, Eder S, Bartz F, Fruhwald S,
@@ -166,3 +175,8 @@ The dataset itself is archived on Zenodo and carries its own DOI:
 ## Licence
 
 MIT — see [LICENSE](LICENSE).
+
+The graphical abstract (`graphical-abstract.svg`, `graphical-abstract.pdf`) is reproduced
+from the article, which is published open access under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and is covered by that licence
+rather than by the MIT licence above.
