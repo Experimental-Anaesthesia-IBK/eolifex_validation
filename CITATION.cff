@@ -1,0 +1,86 @@
+cff-version: 1.2.0
+message: >-
+  If you use these data, please cite the article under `preferred-citation`.
+  To refer to this dataset itself, cite the DOI of the release you used.
+title: >-
+  Validation of EOlife X — data and interactive review tool for a
+  method-comparison study in a porcine cardiac arrest model
+type: dataset
+authors:
+  - family-names: Orlob
+    given-names: Simon
+    orcid: "https://orcid.org/0000-0001-7799-4822"
+    affiliation: >-
+      Department of Anaesthesia and Intensive Care,
+      Medical University of Innsbruck, Innsbruck, Austria
+license: MIT
+repository-code: "https://github.com/Experimental-Anaesthesia-IBK/eolifex_validation"
+keywords:
+  - cardiopulmonary resuscitation
+  - ventilation
+  - tidal volume
+  - method comparison
+  - porcine model
+references:
+  - type: thesis
+    title: "Towards a data-driven cardiac arrest treatment"
+    authors:
+      - family-names: Kern
+        given-names: Wolfgang Johann
+        orcid: "https://orcid.org/0000-0001-5080-382X"
+    institution:
+      name: University of Graz
+    thesis-type: PhD thesis
+    year: 2024
+    url: "https://unipub.uni-graz.at/urn/urn:nbn:at:at-ubg:1-207085"
+    notes: >-
+      Describes the purpose-built volumetric capnograph used for the reference
+      flow measurements.
+preferred-citation:
+  type: article
+  title: >-
+    Measurement of tidal volumes and respiratory rate during regular and
+    asynchronous intra-arrest ventilation using the EOlife X device:
+    A method-comparison study in a porcine cardiac arrest model
+  authors:
+    - family-names: Orlob
+      given-names: Simon
+      orcid: "https://orcid.org/0000-0001-7799-4822"
+    - family-names: Purkarthofer
+      given-names: David
+      orcid: "https://orcid.org/0000-0002-8927-3069"
+    - family-names: Kern
+      given-names: Wolfgang J.
+      orcid: "https://orcid.org/0000-0001-5080-382X"
+    - family-names: Hackl
+      given-names: Benjamin
+      orcid: "https://orcid.org/0000-0003-2998-9599"
+    - family-names: Dunz
+      given-names: Jonas
+      orcid: "https://orcid.org/0009-0001-6323-2154"
+    - family-names: Eder
+      given-names: Stefanie
+    - family-names: Bartz
+      given-names: Frederik
+      orcid: "https://orcid.org/0009-0007-0061-2903"
+    - family-names: Fruhwald
+      given-names: Sonja
+      orcid: "https://orcid.org/0000-0002-1750-8738"
+    - family-names: Wnent
+      given-names: Jan
+      orcid: "https://orcid.org/0000-0002-8685-858X"
+    - family-names: Gräsner
+      given-names: Jan-Thorsten
+      orcid: "https://orcid.org/0000-0001-8143-0376"
+    - family-names: Holler
+      given-names: Martin
+      orcid: "https://orcid.org/0000-0002-2895-2375"
+    - family-names: Martini
+      given-names: Judith
+      orcid: "https://orcid.org/0000-0002-3656-4591"
+    - family-names: Putzer
+      given-names: Gabriel
+      orcid: "https://orcid.org/0000-0003-0205-9885"
+  journal: Resuscitation
+  year: 2026
+  doi: 10.1016/j.resuscitation.2026.111217
