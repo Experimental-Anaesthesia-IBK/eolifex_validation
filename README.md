@@ -1,6 +1,7 @@
 # Validation of EOlife X — data and interactive review tool
 
-[![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Experimental-Anaesthesia-IBK/eolifex_validation/main?urlpath=voila%2Frender%2Freview_data.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21759367.svg)](https://doi.org/10.5281/zenodo.21759367)
+[![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281%2Fzenodo.21759368/?urlpath=voila%2Frender%2Freview_data.ipynb)
 
 Data and an interactive review interface accompanying:
 
@@ -133,9 +134,10 @@ to each breath (`VTinsp`, `VTexp`), and the variants used for the sensitivity an
 reference signals and annotations in synchronised subplots, with a clickable overview of
 the full recording beneath for navigation.
 
-**In your browser, nothing to install** — the badge above launches this repository's
-current state on [Binder](https://mybinder.org/). First start takes a few minutes while
-the environment is built.
+**In your browser, nothing to install** — the badge above launches the archived v1.0.0
+snapshot on [Binder](https://mybinder.org/), built from the Zenodo record rather than
+from this branch, so it shows the same data whatever happens here later. First start
+takes a few minutes while the environment is built.
 
 Locally:
 
@@ -149,8 +151,13 @@ The environment pins `vitabel==0.1.1`, the version the files were written with.
 
 ## Citing
 
-If you use these data, please cite the article above. The archived release of this
-repository additionally carries its own DOI — cite the version you actually used.
+If you use these data, please cite the article above.
+
+The dataset itself is archived on Zenodo and carries its own DOI:
+
+- **All versions:** [10.5281/zenodo.21759367](https://doi.org/10.5281/zenodo.21759367) —
+  use this one unless you need to pin an exact snapshot
+- **v1.0.0:** [10.5281/zenodo.21759368](https://doi.org/10.5281/zenodo.21759368)
 
 ## Licence
 
