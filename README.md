@@ -1,7 +1,6 @@
 # Validation of EOlife X — data and interactive review tool
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21759367.svg)](https://doi.org/10.5281/zenodo.21759367)
-[![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759367/?urlpath=%2Fdoc%2Ftree%2Freview_data.ipynb)
 
 ![Graphical abstract. EOlife X compared against reference measurements in a porcine
 cardiac arrest model, n = 11. Regular ventilation, 581 breaths: bias and limits of
@@ -11,6 +10,8 @@ expiratory tidal volume and ventilation rate. Asynchronous intra-arrest ventilat
 +304 mL; expiratory tidal volume bias −281 mL, limits −599 to +37 mL; ventilation rate
 bias +23.8 per minute, limits −50.2 to +97.8. Reverse airflow episodes are a possible
 mechanism.](graphical-abstract.svg)
+
+<sub>Graphical abstract designed by [David Purkarthofer](https://github.com/dpurkarthofer).</sub>
 
 Data and an interactive review interface accompanying:
 
@@ -139,18 +140,23 @@ to each breath (`VTinsp`, `VTexp`), and the variants used for the sensitivity an
 
 ## Running the review interface
 
-`review_data.ipynb` renders as a Voilà app: pick a case from the dropdown to see the
-reference signals and annotations in synchronised subplots, with a clickable overview of
-the full recording beneath for navigation.
+Each notebook renders as a Voilà app: pick a case from the dropdown to see the reference
+signals and annotations in synchronised subplots, with a clickable overview of the full
+recording beneath for navigation.
 
-**In your browser, nothing to install** — the badge above opens the notebook on
-[Binder](https://mybinder.org/), built from the archived Zenodo record rather than from
-this branch, so it shows released data whatever happens here later. First start takes a
-few minutes while the environment is built; then run the cells to get the interface.
+**In your browser, nothing to install:**
 
-For the Voilà view without the code, append `?urlpath=voila%2Frender%2Freview_data.ipynb`
-to the Binder URL instead — it renders the same interface, but executes the whole
-notebook first and takes about a minute longer to appear.
+| | |
+|---|---|
+| [![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759367/?urlpath=%2Fvoila%2Frender%2Freview_data.ipynb) | **Review** — the eleven main cases |
+| [![Launch the ancillary review](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759367/?urlpath=%2Fvoila%2Frender%2Fdata_publication-II%2Freview_aux.ipynb) | **Ancillary experiment** — the single-subject recording |
+| [![Launch the sensitivity review](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759367/?urlpath=%2Fvoila%2Frender%2Fdata_publication-II%2Freview_sensitivity.ipynb) | **Sensitivity analysis** — breath pairing, on the main cases |
+
+These run on [Binder](https://mybinder.org/) from the archived Zenodo release rather than
+from this branch, so they show released data whatever happens here later. The first start
+takes a few minutes while the environment is built, and Voilà then executes the notebook
+before the interface appears — allow about a minute more. To read or modify the code
+instead, replace `voila/render` in the URL with `doc/tree`.
 
 Locally:
 
@@ -171,6 +177,11 @@ The dataset itself is archived on Zenodo and carries its own DOI:
 - **All versions:** [10.5281/zenodo.21759367](https://doi.org/10.5281/zenodo.21759367) —
   use this one unless you need to pin an exact snapshot
 - **v1.0.0:** [10.5281/zenodo.21759368](https://doi.org/10.5281/zenodo.21759368)
+
+## Acknowledgements
+
+[David Purkarthofer](https://github.com/dpurkarthofer) designed the graphical abstract
+and is a co-author of the study.
 
 ## Licence
 
