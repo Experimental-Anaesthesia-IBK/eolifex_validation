@@ -13,6 +13,9 @@ authors:
     affiliation: >-
       Department of Anaesthesia and Intensive Care,
       Medical University of Innsbruck, Innsbruck, Austria
+doi: "10.5281/zenodo.21759367"
+version: v1.0.0
+date-released: 2026-08-02
 license: MIT
 repository-code: "https://github.com/Experimental-Anaesthesia-IBK/eolifex_validation"
 keywords:
