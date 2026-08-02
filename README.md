@@ -1,7 +1,7 @@
 # Validation of EOlife X — data and interactive review tool
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21759367.svg)](https://doi.org/10.5281/zenodo.21759367)
-[![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281%2Fzenodo.21759368/?urlpath=voila%2Frender%2Freview_data.ipynb)
+[![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759368/?urlpath=voila%2Frender%2Freview_data.ipynb)
 
 Data and an interactive review interface accompanying:
 
