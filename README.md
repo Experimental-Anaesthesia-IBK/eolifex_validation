@@ -98,14 +98,14 @@ period.
 ## What is here
 
 ```
-data/                        11 cases, one JSON per experiment day
-review_data.ipynb            interactive review interface (main publication)
+data/                        11 cases, one JSON per experiment day (CC BY 4.0)
+review_data.ipynb            interactive review interface (main publication, MIT)
 environment.yml              conda environment for Binder / local use
 voila.json                   Voilà configuration
 data_publication-II/         ancillary experiment (same study, see below)
-├── data/aux_X0001126.json
-├── review_aux.ipynb
-└── review_sensitivity.ipynb
+├── data/aux_X0001126.json   (CC BY 4.0)
+├── review_aux.ipynb         (MIT)
+└── review_sensitivity.ipynb (MIT)
 ```
 
 Despite its name, `data_publication-II/` is **not** a second publication. It holds an
@@ -170,7 +170,9 @@ The environment pins `vitabel==0.1.1`, the version the files were written with.
 
 ## Citing
 
-If you use these data, please cite the article above.
+If you use these data, please cite the article above. Attribution is not merely a
+courtesy here: the data are licensed under CC BY 4.0, which requires it.
+[CITATION.cff](CITATION.cff) carries the citation in machine-readable form.
 
 The dataset itself is archived on Zenodo and carries its own DOI:
 
@@ -185,9 +187,23 @@ and is a co-author of the study.
 
 ## Licence
 
-MIT — see [LICENSE](LICENSE).
+Two licences apply, because this repository holds two different kinds of thing.
 
-The graphical abstract (`graphical-abstract.svg`) is reproduced
-from the article, which is published open access under
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and is covered by that licence
-rather than by the MIT licence above.
+**The recordings in [`data/`](data/) and
+[`data_publication-II/data/`](data_publication-II/data/) are licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** — see
+[LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0). You may share and adapt them for any purpose,
+including commercially, provided you give appropriate credit, link to the licence, and
+indicate whether you made changes. Crediting the article above satisfies this.
+
+**The review notebooks and the configuration files are licensed under the MIT licence** —
+see [LICENSE](LICENSE). GitHub reports this repository as MIT because it detects only the
+top-level licence file; the data are nonetheless CC BY 4.0 as stated here and in
+[`data/LICENSE`](data/LICENSE).
+
+The graphical abstract (`graphical-abstract.svg`) is reproduced from the article, which is
+published open access under CC BY 4.0, and is covered by that licence.
+
+Releases v1.0.0 and v1.0.1, and their Zenodo archives, were published under the MIT licence
+alone. This split applies from the next release onwards; the archived versions keep the
+terms they were released under.

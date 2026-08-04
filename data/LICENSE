@@ -1,0 +1,22 @@
+The data files in this directory are licensed under the Creative Commons
+Attribution 4.0 International licence (CC BY 4.0).
+
+You are free to share and adapt them for any purpose, including commercially,
+provided you give appropriate credit, provide a link to the licence, and
+indicate if changes were made.
+
+  Full licence text:  ../LICENSE-CC-BY-4.0
+                      https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+
+  Orlob S, Purkarthofer D, Kern WJ, Hackl B, Dunz J, Eder S, Bartz F,
+  Fruhwald S, Wnent J, Gräsner JT, Holler M, Martini J, Putzer G.
+  Measurement of tidal volumes and respiratory rate during regular and
+  asynchronous intra-arrest ventilation using the EOlife X device:
+  A method-comparison study in a porcine cardiac arrest model.
+  Resuscitation 2026.
+  https://doi.org/10.1016/j.resuscitation.2026.111217
+
+The review notebooks and the configuration files are licensed separately
+under the MIT licence; see ../LICENSE.
