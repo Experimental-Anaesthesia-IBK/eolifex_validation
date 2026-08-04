@@ -187,7 +187,7 @@ and is a co-author of the study.
 
 MIT — see [LICENSE](LICENSE).
 
-The graphical abstract (`graphical-abstract.svg`, `graphical-abstract.pdf`) is reproduced
+The graphical abstract (`graphical-abstract.svg`) is reproduced
 from the article, which is published open access under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and is covered by that licence
 rather than by the MIT licence above.
