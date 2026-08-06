@@ -149,8 +149,9 @@ recording beneath for navigation.
 | | |
 |---|---|
 | [![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759367/?urlpath=%2Fvoila%2Frender%2Freview_data.ipynb) | **Review** — the eleven main cases |
-| [![Launch the ancillary review](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759367/?urlpath=%2Fvoila%2Frender%2Fdata_publication-II%2Freview_aux.ipynb) | **Ancillary experiment** — the single-subject recording |
 | [![Launch the sensitivity review](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759367/?urlpath=%2Fvoila%2Frender%2Fdata_publication-II%2Freview_sensitivity.ipynb) | **Sensitivity analysis** — breath pairing, on the main cases |
+| [![Launch the ancillary review](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21759367/?urlpath=%2Fvoila%2Frender%2Fdata_publication-II%2Freview_aux.ipynb) | **Ancillary experiment** — the single-subject recording |
+
 
 These run on [Binder](https://mybinder.org/) from the archived Zenodo release rather than
 from this branch, so they show released data whatever happens here later. The first start
